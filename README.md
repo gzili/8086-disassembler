@@ -2,7 +2,7 @@
 An x86 disassembler which supports the original Intel 8086/8088 instructions.
 
 
-This disassembler was written in x86 Assembly language during the first semester of Software Engineering course in Vilnius University (VU).
+This disassembler was written in x86 Assembly language during the first semester of Software Engineering programme in Vilnius University (VU).
 
 ## Features
 * Supports every instruction from the original Intel 8086/8088 instruction set
