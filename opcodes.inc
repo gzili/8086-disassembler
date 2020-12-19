@@ -387,16 +387,16 @@ instrItem<insLOOP,tNormal,opShort,opNone> ; E2
 instrItem<insJCXZ,tNormal,opShort,opNone> ; E3
 instrItem<insIN,tNormal,opAL,opImm8> ; E4
 instrItem<insIN,tNormal,opAX,opImm16> ; E5
-instrItem<insOUT,tNormal,opAL,opImm8> ; E6
-instrItem<insOUT,tNormal,opAX,opImm16> ; E7
+instrItem<insOUT,tNormal,opImm8,opAL> ; E6
+instrItem<insOUT,tNormal,opImm8,opAX> ; E7
 instrItem<insCALL,tNormal,opNear,opNone> ; E8
 instrItem<insJMP,tNormal,opNear,opNone> ; E9
 instrItem<insJMP,tNormal,opFar,opNone> ; EA
 instrItem<insJMP,tNormal,opShort,opNone> ; EB
 instrItem<insIN,tNormal,opAL,opDX> ; EC
 instrItem<insIN,tNormal,opAX,opDX> ; ED
-instrItem<insOUT,tNormal,opAL,opDX> ; EE
-instrItem<insOUT,tNormal,opAX,opDX> ; EF
+instrItem<insOUT,tNormal,opDX,opAL> ; EE
+instrItem<insOUT,tNormal,opDX,opAX> ; EF
 instrItem<insLOCK,tPrefix,opNone,opNone> ; F0
 db (size instrItem)*1 dup (0) ; F1 (not used)
 instrItem<insREPNE,tPrefix,opNone,opNone> ; F2
